@@ -1,8 +1,8 @@
 # **sena-base-2021 v6.3.0**
 
-## **Enlace GitHubPages**
+## **CF2 - 22230048 Medición de huella de carbono en organizaciones (2)**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF2_22230048_MEDICION_HUELLA_CARBONO/](https://ecored-sena.github.io/CF2_22230048_MEDICION_HUELLA_CARBONO/)
 
 #
 

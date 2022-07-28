@@ -1,19 +1,18 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Cálculo de GEI y estrategias de gestión.',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'Este componente permite conocer los límites de medición de los GEI, el proceso para el seguimiento, recolección de datos y selección de factores de emisión, los pasos a seguir para desarrollar inventarios de emisiones y la medición de la huella de carbono; se identificarán las herramientas para el cálculo de las emisiones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -34,128 +33,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Determinación de los límites de medición de GEI',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Límites organizacionales',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Audio',
-            hash: 'audio',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Dialogo ingles',
-            hash: 'actividad_dialogo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.19',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Límites operacionales',
+            hash: 't_1_2',
           },
         ],
       },
@@ -163,90 +54,94 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Seguimiento a las emisiones a través del tiempo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Recolección de datos y selección de factores de emisión',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Cálculo de la huella de carbono: contabilización de emisiones de GEI',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
+            numero: '4.1',
+            titulo: 'Alcance 1: Emisiones directas de GEI',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
             titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
+              'Alcance 2: Emisiones indirectas de GEI asociadas a la electricidad',
+            hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
+            numero: '4.3',
+            titulo: 'Otras emisiones indirectas',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Herramientas de cálculo de emisiones de GEI',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Herramientas intersectoriales',
+            hash: 't_5_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
+            numero: '5.2',
+            titulo: 'Herramientas específicas por sector',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Reporte de emisiones de GEI',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Estrategias de gestión de las emisiones de GEI',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Bonos de carbono',
+            hash: 't_7_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            numero: '7.2',
+            titulo: 'Programa de ahorro y uso eficiente de la energía',
+            hash: 't_7_2',
           },
         ],
       },
@@ -293,132 +188,119 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Banco Interamericano de Desarrollo (BID). (Junio de 2013). Estrategias de mitigación y métodos para la estimacion de las emisiones de Gases Efecto Invernadero en el sector transporte.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://publications.iadb.org/publications/spanish/document/Estrategias-de-mitigaci%C3%B3n-y-m%C3%A9todos-para-la-estimaci%C3%B3n-de-las-emisiones-de-gases-de-efecto-invernadero-en-el-transporte.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'BSI España. (11 de febrero de 2011). Huella de carbono. Cálculo de emisiones (PAS 2050) Y Neutralidad de carbono (PAS 2060). Barcelona, España.',
+      link: 'http://www.ecotech.cat/pas2050.pdf',
+    },
+    {
+      referencia:
+        'Castiblanco, C. (s.f.). Curso internacional: Cambio climático, economía ambiental y estilos de desarrollo. Bogotá: Comisión Económica para América Latina y el Caribe CEPAL y Unversidad Nacional de Colombia. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.cepal.org/sites/default/files/courses/files/presentacion_carmenza_castiblanco.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ihobe con la colaboración de Factor CO2. (Marzo de 2013). 7 metodologías para el cálculo de emisiones de gases de efecto invernadero. Ihobe, Sociedad Pública de Gestión Ambiental; Departamento de Medio Ambiente y Política Territorial Gobierno Vasco.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.euskadi.eus/contenidos/documentacion/7metodologias_gei/es_def/adjuntos/7METODOLOGIAS.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2017). Política Nacional de Cambio Climático. Bogotá D.C., Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.minambiente.gov.co/wp-content/uploads/2022/01/9.-Politica-Nacional-de-Cambio-Climatico.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Ministerio de ambiente y desarrollo sostenible - Colombia. (15 de diciembre de 2016). Tutorila calculadora de carbono. Ministerio de ambiente y desarrollo sostenible - Colombia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.youtube.com/watch?v=Zd84O9FZ6b0&ab_channel=MinisteriodeAmbienteyDesarrolloSostenible-Colombia',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Ministerio para la transición Ecológica. (2016). Guía para el cálculo de la huella de carbono y para la elaboración de un plan de mejora de una organización. Madrid: Oficina Española de Cambio Climático. Ministerio para la Transición.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.miteco.gob.es/es/cambio-climatico/temas/mitigacion-politicas-y-medidas/guia_huella_carbono_tcm30-479093.pdf',
+    },
+    {
+      referencia:
+        'Ochoa, O. (2016). Bonos de carbono: desarrollo conceptual y aproximación crítica. MisiónJurídica, 9(11), 289-297.',
+      link:
+        'https://www.revistamisionjuridica.com/wp-content/uploads/2020/09/Bonos-de-carbono-desarrollo-conceptual-y-aproximacion-critica.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Año base',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Un año determinado o el promedio de varios años, con base en el cual se da seguimiento en el tiempo a las emisiones de una organización o empresa.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Cambio estructural',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Cambio en los límites organizacionales y operacionales de una organización que resulta de la transferencia de la propiedad o el control de emisiones de una organización a otra.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Factor de emisión',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Factor que permite estimar emisiones de GEI a partir de los datos de actividades disponibles (como toneladas de combustible consumido, toneladas de producto producido) y las emisiones totales de GEI.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Reporte',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Presentación de información relacionada con la cuantificación de las emisiones de GEI de la organización a sus partes interesadas internas y/o externas tales como autoridades reguladoras, accionistas, público en general y partes involucradas.',
     },
     {
-      termino: 'Moda',
+      termino: 'Umbral de significancia',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Criterio cualitativo o cuantitativo para definir cualquier cambio relevante en los datos, límite de inventario, los métodos de cálculo o cualquier otro factor significativo que permite definir un recálculo de las emisiones del año base.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        'Cálculo de la huella de carbono: contabilización de emisiones de GEI.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Guallasamin, K., Simón, D. (2018). Huella de carbono del cultivo de rosas en Ecuador comparando dos metodologías: GHG Protocol vs. PAS 2050. Letras verdes. Revista latinoamericana de estudios socioambientales, 27-56.',
+      tipo: 'Artículo',
+      link: 'https://doi.org/10.17141/letrasverdes.24.2018.3091',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema:
+        'Cálculo de la huella de carbono: contabilización de emisiones de GEI.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Ministerio de ambiente y desarrollo sostenible - Colombia. [Ministerio de Ambiente y Desarrollo Sostenible - Colombia]. (2016, 15 de diciembre). Tutorial calculadora de carbono. [video]. Youtube',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.youtube.com/watch?v=Zd84O9FZ6b0&ab_channel=MinisteriodeAmbienteyDesarrolloSostenible-Colombia',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Herramientas de cálculo de emisiones de GEI.',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'La Patria Manizales. [La Patria Manizales]. (2020, 19 de diciembre). Herramientas para medir la huella de carbono. [video]. Youtube',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://www.youtube.com/watch?v=m8S4wMFNBrc&ab_channel=LaPatriaManizales',
+    },
+    {
+      tema: 'Estrategias de gestión de las emisiones de GEI.',
+      referencia:
+        'South Pole. [South Pole].  (2018, 17 de julio). ¿Qué son los créditos de carbono? [video]. Youtube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=eUUNNvmK5Rg&ab_channel=SouthPole',
+    },
+    {
+      tema: 'Estrategias de gestión de las emisiones de GEI.',
+      referencia:
+        'Tecnológico de Monterrey - Innovación educativa. [Tecnológico de Monterrey | Innovación Educativa]. (2017, 27 de septiembre). Incentivos que promueven la mitigación del cambio climático. [video]. Youtube',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=2ewluRi2z8Y&ab_channel=Tecnol%C3%B3gicodeMonterrey%7CInnovaci%C3%B3nEducativa',
     },
   ],
   creditos: {
@@ -436,6 +318,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Ingrid Natalia Lozano Muñoz',
+        cargo: 'Experto Temático',
+        centro: 'Regional Tolima – Centro Agropecuario La Granja.',
+      },
+      {
+        nombre: 'Jeimy Lorena Romero Perilla',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesor Metodológico',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -450,41 +353,72 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Carlos Mauricio Gómez Delgado',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez ',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Cortés',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Erika Viviana Sandoval Rojas',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

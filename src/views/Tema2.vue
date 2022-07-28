@@ -3,138 +3,90 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span.text-white 2
+      h1 Seguimiento a las emisiones a través del tiempo
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    .row.mb-4
+      p Las organizaciones a lo largo del tiempo pueden experimentar cambios estructurales que transforman la forma en la cual desarrollan sus actividades y procesos, esto puede dificultar la realización de comparaciones de datos de un periodo de tiempo a otro. Por ello, es necesario que para realizar esta labor se lleguen a ajustes consensuados.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row.justify-content-center.align-items-center.mb-4
+      .col-md-6
+        figure
+          img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
+      .col-md-6
+        p Por este motivo, para que las organizaciones puedan comparar cómo varían sus emisiones de GEI en el tiempo de forma significativa y consistente, deben fijar una base de comparación que permita contrastar el desempeño de un año con respecto al año inmediatamente anterior, llamado año base, sobre este año se centrará el seguimiento al desempeño en términos de emisiones, es muy importante justificar la selección de dicho año.
+        .cajon.color-primario.p-4.mb-4(style='background-color: #E5FFE9')
+          p No obstante, algunas organizaciones no determinan un año en particular como base de comparación sino un periodo de tiempo consecutivo lo que permite disminuir los riesgos de variaciones inusuales de la tendencia de emisiones de la organización.
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+    p.mb-5 Las emisiones cuantificadas en el año base son utilizadas como el punto de partida para el establecimiento de criterios, objetivos y medidas de mitigación y reducción de las emisiones de GEI, además permiten la planeación de diferentes procesos que facilitan a la organización un óptimo desempeño en términos de emisiones.
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+    .row.justify-content-center.mb-4
+      .col-xxl-10.col-md-11(data-aos="fade")
+        .bloque-texto-g1.fondo1.p-3.p-sm-4.p-md-5
+          .bloque-texto-g1__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.jpg')})`}"
+          )
+          .bloque-texto-g1__texto.p-4
+            p.mb-0 Por otro lado, la organización para velar por la pertinencia y significancia de la cuantificación de las emisiones de GEI a lo largo del tiempo, debe establecer lineamientos claros referentes a los casos en los cuales se puede realizar el ajuste o recálculo de las emisiones del año base y este debe ser comunicado en los reportes que realice en términos de sus emisiones de GEI.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-5 Para conocer los casos en los cuales se podría aplicar el ajuste sobre las emisiones del año base, revise el siguiente recurso:
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+    .bg_grad-02
+      .row.mb-4.justify-content-center
+        .col-md-10
+          figure
+            img(src='@/assets/curso/tema2/vec1.svg', alt='Texto que describa la imagen')
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+      .row.mb-4.justify-content-center.align-items-center
+        .col-md-8
+          .tarjeta.fondo-slyder.mb-5(data-aos="fade-up")
+            SlyderA
+              .row.p-4
+                .col-md-12
+                  ol.lista-ol--cuadro
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span 01.
+                      | Cambios estructurales como:
+                .col-md-12
+                  ol.lista-ol
+                    li 
+                      span.text-bold a. 
+                      | Fusiones de otras organizaciones.
+                    li 
+                      span.text-bold b. 
+                      | Desinversiones.
+                    li 
+                      span.text-bold c. 
+                      | Incorporación de nuevos procesos o actividades que generan emisiones.
+                    li 
+                      span.text-bold d. 
+                      | Tercerización de procesos o actividades que generan emisiones.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              .row.p-4
+                .col-md-12
+                  ol.lista-ol--cuadro
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span 02.
+                .col-md-12
+                  p Cambios en la metodología de cuantificación de las emisiones de GEI por ajustes a los factores de emisión o información de las emisiones.
 
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+              .row.p-4
+                .col-md-12
+                  ol.lista-ol--cuadro
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span 03.
+                .col-md-12
+                  p Errores significativos en la cuantificación de las emisiones de GEI, los cuales pueden traer consecuencias significativas para la organización.
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .row 
+      .cajon.color-acento-contenido.p-4.mb-4(style='background-color: #FFE3DB')
+        p.mb-0 El ajuste de las emisiones del año base deben realizarse de manera retroactiva con el fin de reflejar cambios significativos en el desempeño de la organización en términos de emisiones de GEI.
 
 </template>
 
