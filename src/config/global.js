@@ -217,7 +217,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de ambiente y desarrollo sostenible - Colombia. (15 de diciembre de 2016). Tutorila calculadora de carbono. Ministerio de ambiente y desarrollo sostenible - Colombia.',
+        'Ministerio de ambiente y desarrollo sostenible - Colombia. (15 de diciembre de 2016). Tutorial calculadora de carbono. Ministerio de ambiente y desarrollo sostenible - Colombia.',
       link:
         'https://www.youtube.com/watch?v=Zd84O9FZ6b0&ab_channel=MinisteriodeAmbienteyDesarrolloSostenible-Colombia',
     },

@@ -23,11 +23,11 @@
       h2 1.1	Límites organizacionales
 
     .row.mb-4
-      p Las actividades y operaciones de las organizaciones pueden ser distintas según sea su naturaleza y estructura organizacional o como ya se mención antes, pueden contar con uno o varios lugares de operación, lo que hace que las fuentes de emisión de GEI de cada lugar sean distintas. Por todas estas particularidades es relevante que la organización defina las unidades de negocio, áreas y actividades sobre las cuales tiene control y las cuales serán involucradas en el ejercicio de cuantificación de las emisiones de GEI.
+      p Las actividades y operaciones de las organizaciones pueden ser distintas según sea su naturaleza y estructura organizacional o como ya se mencionaron antes, pueden contar con uno o varios lugares de operación, lo que hace que las fuentes de emisión de GEI de cada lugar sean distintas. Por todas estas particularidades es relevante que la organización defina las unidades de negocio, áreas y actividades sobre las cuales tiene control y las cuales serán involucradas en el ejercicio de cuantificación de las emisiones de GEI.
 
     .row.mb-2
       .cajon.color-primario.p-4.mb-4(style='background-color: #E5FFE9')
-        p Para que la organización pueda definir los límites organizaciones, debe considerar en primera medida el objetivo principal por cumplir con el ejercicio de cuantificación de las emisiones de GEI y a su vez debe considerar los algunos enfoques los cuales son la base orientadora para la consolidación de dichas emisiones, para conocerlos revise con atención el siguiente recurso educativo: 
+        p Para que la organización pueda definir límites organizaciones, debe considerar en primera medida el objetivo principal por cumplir con el ejercicio de cuantificación de las emisiones de GEI y a su vez debe considerar algunos enfoques los cuales son la base orientadora para la consolidación de dichas emisiones, para conocerlos revise con atención el siguiente recurso educativo: 
 
     .row.mb-1
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
@@ -71,7 +71,7 @@
 
     .row 
       figure
-        img(src='@/assets/curso/tema1/vec1.svg', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema1/vec1.png', alt='Texto que describa la imagen')
 
 
 </template>

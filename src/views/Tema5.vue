@@ -42,7 +42,7 @@
       h2 5.1	Herramientas intersectoriales
    
     .row.mb-4 
-      p Estas herramientas pueden ser empleadas por diversos sectores de la economía, incluyen emisiones asociadas a la combustión móvil y fija, el uso de gases refrigerantes y sistemas HVAC (aire acondicionado y calefacción) En el siguiente recurso educativo se detallan las herramientas de cálculo intersectoriales;
+      p Estas herramientas pueden ser empleadas por diversos sectores de la economía, incluyen emisiones asociadas a la combustión móvil y fija, el uso de gases refrigerantes y sistemas HVAC (aire acondicionado y calefacción) En el siguiente recurso educativo se detallan las herramientas de cálculo intersectoriales.
 
     .bg_grad-04.mb-5
       .row.align-items-center.justify-content-end.mb-5
@@ -81,7 +81,7 @@
     .row.mb-4
       p Son herramientas estructuradas para ser usadas por sectores determinados como hierro, cemento, aluminio, petróleo y gas, papel y empresas con actividades de índole administrativo. En el siguiente recurso se detallan las herramientas de cálculo por sector: 
 
-    .row.mb-4
+    .row.mb-5
       .col-md-12.center
         ImagenInfografica.color-primario
           template(v-slot:imagen)
@@ -100,7 +100,7 @@
             span Calcula las emisiones directas de GEI (N2O) de la producción de ácido nítrico.
 
           .tarjeta.bg-amarillo-claro.p-4(x="68.6%" y="62.5%" numero="")
-            p <b>4. Manufactura de amoniaco</b>  
+            p <b>4. Manufactura de amoníaco</b>  
             span Calcula las emisiones directas de GEI (CO2) de la producción de amoníaco. Esto es solamente por la remoción de carbón de la corriente de alimentación; las emisiones provenientes de la combustión se calculan con el módulo de combustión fija.
 
           .tarjeta.bg-amarillo-claro.p-4(x="62.2%" y="75%" numero="")
@@ -114,7 +114,7 @@
 
           .tarjeta.bg-amarillo-claro.p-4(x="33%" y="30.6%" numero="")
             p <b>7.CAL</b>  
-            span Calcula las emisiones directas de GEI provenientes de la manufactura de cal (CO2 proveniente del proceso de calcinación.
+            span Calcula las emisiones directas de GEI provenientes de la manufactura de cal (CO2 proveniente del proceso de calcinación).
 
           .tarjeta.bg-amarillo-claro.p-4(x="30.7%" y="46.7%" numero="")
             p <b>8. HFC-23</b>  

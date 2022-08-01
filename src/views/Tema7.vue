@@ -54,7 +54,7 @@
           img(src='@/assets/curso/tema7/img1.png', alt='Texto que describa la imagen')
 
       .col-md-6 
-        p.mb-4 El programa de ahorro y uso eficiente de la energía es un mecanismo a través del cual se promueven mejores prácticas para el uso de los recursos energéticos en una organización, las acciones que aquí se contemplan deben ser evaluadas continuamente con el fin de garantizar la disminuir los impactos ambientales asociados al uso de la energía y propende la reducción de costos de mitigación y compensación de las emisiones de GEI.
+        p.mb-4 El programa de ahorro y uso eficiente de la energía es un mecanismo a través del cual se promueven mejores prácticas para el uso de los recursos energéticos en una organización, las acciones que aquí se contemplan deben ser evaluadas continuamente con el fin de garantizar al disminuir los impactos ambientales asociados al uso de la energía y propende la reducción de costos de mitigación y compensación de las emisiones de GEI.
         span Dentro de este programa se debe realizar un análisis de viabilidad en donde se estudian detalladamente las estrategias a implementar en pro de la reducción del consumo de energía sin que los procesos y actividades de la organización se vean afectadas, luego de realizar este análisis se deben establecer los mecanismos de implementación de estas y seguimiento. 
 
 

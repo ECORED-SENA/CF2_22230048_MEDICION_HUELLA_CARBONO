@@ -20,8 +20,8 @@
     .row 
       figure.mb-5
         .video
-          iframe(width="942" height="530" src="https://www.youtube.com/embed/-EAwxVi1GzM" title="Contenidos de reporte de cuantificación de GEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-  
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/3Hcl1m7Amv4" title="Contenidos de reporte de cuantificación de GEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>

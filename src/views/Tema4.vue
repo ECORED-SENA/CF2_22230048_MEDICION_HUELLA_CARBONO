@@ -104,7 +104,7 @@
       h2 4.1	Alcance 1: Emisiones directas de GEI
    
     .row.mb-4
-      p Las organizaciones que cuantifican y reportan las emisiones de GEI de las fuentes sobre las cuales tiene control, deben realizar el análisis de estas en el alcance 1.<b>Las emisiones directas de GEI son generadas por la ejecución de las siguientes actividades o procesos.</b>
+      p Las organizaciones que cuantifican y reportan las emisiones de GEI de las fuentes sobre las cuales tiene control, deben realizar el análisis de estas en el alcance 1. <b>Las emisiones directas de GEI son generadas por la ejecución de las siguientes actividades o procesos.</b>
 
     .row.mb-4 
       ul.lista-ul--color
@@ -125,7 +125,7 @@
       .bg_fondo_3.p-4
         .row.align-items-center(data-aos="zoom-in-up")
           .col-12.col-md-8
-            p.p-2 Si la organización es generadora de energía eléctrica, productora de cemento, aluminio o acero, manufacturera o de tipo industrial y realiza la venta de estos servicios y productos, la organización debe contabilizar las emisiones asociadas a este proceso físico o químico en el alcance 1, siempre y cuando las organizaciones tengan el control sobre estos procesos, lo que quiere decir que las emisiones asociadas a la venta o transferencia de productos y servicios deben ser cuantificadas y reportadas en el alcance 1.<br><br/>Por otro lado, si las organizaciones sólo realizan actividades administrativas en algunas ocasiones pueden que no tengas fuentes de emisión directa de GEI, pero si estas cuentan u operan vehículos propios, sistemas de refrigeración o equipos de combustión estas emisiones deben ser cuantificadas y reportadas en alcance 1.
+            p.p-2 Si la organización es generadora de energía eléctrica, productora de cemento, aluminio o acero, manufacturera o de tipo industrial y realiza la venta de estos servicios y productos, la organización debe contabilizar las emisiones asociadas a este proceso físico o químico en el alcance 1, siempre y cuando las organizaciones tengan el control sobre estos procesos, lo que quiere decir que las emisiones asociadas a la venta o transferencia de productos y servicios deben ser cuantificadas y reportadas en el alcance 1.<br><br/>Por otro lado, si las organizaciones sólo realizan actividades administrativas en algunas ocasiones pueden que no tengan fuentes de emisión directa de GEI, pero si estas cuentan u operan vehículos propios, sistemas de refrigeración o equipos de combustión estas emisiones deben ser cuantificadas y reportadas en alcance 1.
           .col-12.col-md-4
             figure.arri1
               img(src="@/assets/curso/tema4/img5.png" style= "height: 416px")
@@ -164,7 +164,7 @@
         img(src='@/assets/curso/tema4/img2.jpg' alt='AvatarTop')
 
     .row.mb-4
-      p Estas emisiones son producto de las actividades de la organización pero que proceden de fuentes que no están bajo su control ni son de su propiedad, e incluye las emisiones corriente arriba y corriente debajo de los procesos sobre los cuales la organización tiene el control. 
+      p Estas emisiones son producto de las actividades de la organización pero que proceden de fuentes que no están bajo su control ni son de su propiedad, e incluye las emisiones corriente arriba y corriente abajo de los procesos sobre los cuales la organización tiene el control. 
       span.mb-2 En este alcance las organizaciones pueden decidir cuáles fuentes de emisión cuantificar y reportar, lo que en ocasiones impide la comparabilidad con empresas del mismo sector. 
       p Las fuentes de emisión corriente arriba y corriente abajo son 15 las cuales son:
 

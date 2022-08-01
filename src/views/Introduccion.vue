@@ -15,8 +15,8 @@
     .row 
       figure.mb-5
         .video
-          iframe(width="942" height="530" src="https://www.youtube.com/embed/XQbBPSBQ4-o" title="Cálculo de GEI y estrategias de gestión introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            
+          iframe(width="942" height="530" src="https://www.youtube.com/embed/2VM7Y6-7Gg8" title="Cálculo de GEI y estrategias de gestión introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
 </template>
 
 <script>

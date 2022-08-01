@@ -27,7 +27,7 @@
             img(src='@/assets/curso/tema3/avatar1.svg' alt='AvatarTop')
           .tarjeta.tarjeta-color
             .p-4
-              p Las cantidades o volúmenes consumidas para combustibles comerciales (gasolina, nafta, diesel, gas natural, gas propano o GLP.
+              p Las cantidades o volúmenes consumidas para combustibles comerciales (gasolina, nafta, diesel, gas natural, gas propano o GLP).
 
       .col-lg-8
         .tarjeta-avatar-b.mb-5
