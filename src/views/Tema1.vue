@@ -27,7 +27,7 @@
 
     .row.mb-2
       .cajon.color-primario.p-4.mb-4(style='background-color: #E5FFE9')
-        p Para que la organización pueda definir límites organizaciones, debe considerar en primera medida el objetivo principal por cumplir con el ejercicio de cuantificación de las emisiones de GEI y a su vez debe considerar algunos enfoques los cuales son la base orientadora para la consolidación de dichas emisiones, para conocerlos revise con atención el siguiente recurso educativo: 
+        p Para que la organización pueda definir límites organizacionales, debe considerar en primera medida el objetivo principal por cumplir con el ejercicio de cuantificación de las emisiones de GEI y a su vez debe considerar algunos enfoques los cuales son la base orientadora para la consolidación de dichas emisiones, para conocerlos revise con atención el siguiente recurso educativo: 
 
     .row.mb-1
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
