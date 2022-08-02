@@ -44,13 +44,14 @@
           .col-md-8.mb-4
             figure
               img(src='@/assets/curso/tema7/vec1.svg', alt='Texto que describa la imagen')
-
+    separador
+    
     #t_7_2.titulo-segundo.titulo-segundo.color-acento-contenido
       h2 7.2	Programa de ahorro y uso eficiente de la energía
 
     .row.mb-4.justify-content-center.align-items-center
       .col-md-6 
-        figure
+        figure.mb-4
           img(src='@/assets/curso/tema7/img1.png', alt='Texto que describa la imagen')
 
       .col-md-6 

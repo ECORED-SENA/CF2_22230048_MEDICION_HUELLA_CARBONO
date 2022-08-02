@@ -19,13 +19,15 @@
     .row.justify-content-center.mb-4
       .col-md-8
         .cajon.color-primario.p-4.mb-4(style='background-color: #E5FFE9')
-          .row.align-items-center
-            .col-md-2
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-8
               figure
                 img(src='@/assets/curso/tema4/vec7.png' alt='AvatarTop')
             .col-md-10
               p Como resultado de esta ecuación se obtendrá una cantidad (ton, kg, l) determinada de CO2e. Las emisiones de GEI se miden en función del CO2 ya que este GEI es el gas que influye en mayor proporción al calentamiento global.
-              <b>Emisiones = información proceso o actividad  X Factor de emisión</b>
+              .col-md-10
+                .cajon-b.color-fondo.p-2
+                  <b>Emisiones = información proceso o actividad  X Factor de emisión</b>
 
     .row.mb-4.justify-content-center.align-items-center
       .col-md-10
@@ -47,7 +49,7 @@
     .bg_grad-04.mb-5
       .row.align-items-center.justify-content-end.mb-5
         .col-md-7.mb-5
-          .tarjeta.tarjeta--blanca.p-5
+          .tarjeta.tarjeta--blanca.mb-5.p-3
             SlyderA
               .row.p-4
                 .col-md-12.mb-4.mb-md-0
@@ -86,45 +88,45 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema5/vec1.svg', alt='Texto que describa la imagen')
-          .tarjeta.bg-amarillo-claro.p-4(x="62.2%" y="18.3%" numero="")
+              img(src='@/assets/curso/tema5/vec1.png', alt='Texto que describa la imagen')
+          .tarjeta.bg-amarillo-claro.p-4(x="62.2%" y="19.4%" numero="")
             p <b>1. Producción de aluminio y otros metales no férreos</b>  
             span Calcula las emisiones directas de GEI de la producción de aluminio (CO2 de la oxidación anódica, emisiones de PFC derivadas del "efecto de ánodo" y SF6 utilizado como gas de cubierta en la producción de metales no ferrosos).
 
-          .tarjeta.bg-amarillo-claro.p-4(x="68.6%" y="30.6%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="68.6%" y="31.5%" numero="")
             p  <b>2. Hierro y acero</b>  
             span Calcula las emisiones directas de GEI (CO2) de la oxidación del agente reductor, de la calcinación del flujo utilizado en la producción de acero, y de la remoción de carbón del hierro mineral en bruto y acero de desecho utilizados.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="71%" y="46.7%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="71%" y="47.5%" numero="")
             p <b>3. Manufactura de ácido nítrico</b>  
             span Calcula las emisiones directas de GEI (N2O) de la producción de ácido nítrico.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="68.6%" y="62.5%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="68.6%" y="63%" numero="")
             p <b>4. Manufactura de amoníaco</b>  
             span Calcula las emisiones directas de GEI (CO2) de la producción de amoníaco. Esto es solamente por la remoción de carbón de la corriente de alimentación; las emisiones provenientes de la combustión se calculan con el módulo de combustión fija.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="62.2%" y="75%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="62.2%" y="75.2%" numero="")
             p <b>5. Manufactura de ácido adípico</b>  
             span Calcula las emisiones directas de GEI (N2O) de la producción de ácido adípico.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="39.5%" y="18.3%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="39.5%" y="19.4%" numero="")
             p.mb-2 <b>6. Cemento</b>  
             p.mb-2 Calcula las emisiones directas de CO2 del proceso de calcinación en la manufactura del cemento (la herramienta del WBCSD también calcula las emisiones de combustión). 
             p Provee dos metodologías de cálculo: un método basado en el cemento y otro basado en el Clinker. 
 
-          .tarjeta.bg-amarillo-claro.p-4(x="33%" y="30.6%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="33%" y="31.5%" numero="")
             p <b>7.CAL</b>  
             span Calcula las emisiones directas de GEI provenientes de la manufactura de cal (CO2 proveniente del proceso de calcinación).
 
-          .tarjeta.bg-amarillo-claro.p-4(x="30.7%" y="46.7%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="30.7%" y="47.5%" numero="")
             p <b>8. HFC-23</b>  
             span Proveniente de la producción de HCHC-22 Calcula las emisiones directas de HFC-23 provenientes de la producción de HCFC-22.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="33.2%" y="62.5%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="33%" y="63%" numero="")
             p <b>9. Pulpa y papel</b>  
             span Calcula las emisiones directas de CO2, CH4, y N2O de la producción de pulpa y papel. Esto incluye el cálculo de las emisiones directas e indirectas de CO2 de la combustión de combustibles fósiles, biocombustibles y productos de desperdicio en equipos estacionarios.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="39.5%" y="75%" numero="")
+          .tarjeta.bg-amarillo-claro.p-4(x="39.5%" y="75.2%" numero="")
             p <b>10. Producción de paneles semiconductores</b>  
             span Calcula las emisiones de PFC de la producción de paneles semiconductores.
 
@@ -132,12 +134,14 @@
       p.mb-2 Las organizaciones deben emplear más de una herramienta (sectorial e intersectorial) para desarrollar el cálculo de sus emisiones de GEI.
       p <b>Para cada una de estas herramientas se deben considerar las siguientes secciones:</b>
 
-    .titulo-sexto.color-acento-contenido.mb-0
-      h5 Figura 4.
-      span Secciones por considerar para realizar la cuantificación de emisiones de GEI.
-    .row
-      figure
-        img(src='@/assets/curso/tema5/vec2.svg' alt='AvatarTop')
+    .row.justify-content-center.align-items-center
+      .col-md-10.col-12
+        .titulo-sexto.color-acento-contenido.mb-0
+          h5 Figura 4.
+          span Secciones por considerar para realizar la cuantificación de emisiones de GEI.
+        .row
+          figure
+            img(src='@/assets/curso/tema5/vec2.svg' alt='AvatarTop')
 
 </template>
 

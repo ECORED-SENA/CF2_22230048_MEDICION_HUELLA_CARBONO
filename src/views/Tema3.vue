@@ -48,18 +48,18 @@
     .row.mb-4
       p Teniendo los consumos proporcionados y estimados para cada uno de los alcances, es necesario consultar los factores de emisión para cada fuente. Estos factores deben ser generados por fuentes confiables, usando siempre los valores más actualizados para el año de reporte. En la siguiente tabla, se detallan algunas fuentes donde se pueden consultar los factores de emisión según alcance y tipo de fuente de emisión:
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.mb-4
       .col-md-10
         .tarjeta.color-degradado.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/tema3/vec1.svg")
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/tema3/vec1.svg" style= "height: 95px")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Tabla 1
                   p.text-small Fuentes de consulta de los factores de emisión por alcance y tipo de fuente
-                .col-sm-auto
+                .col-sm-auto.p-4
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/tabla1.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
@@ -67,12 +67,12 @@
     .row.justify-content-center.mb-4
       .col-md-8
         .cajon.color-acento-contenido.p-4.mb-4(style='background-color: #FFE3DB')
-          .row.align-items-center
-            .col-md-2
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-8
               figure
-                img(src='@/assets/curso/tema3/vec2.svg' alt='AvatarTop')
+                img.der(src='@/assets/curso/tema3/vec2.png' alt='AvatarTop' style= "width: 68px")
             .col-md-10
-              p Cabe resaltar que los factores de emisión pueden variar por país, año, alcance y tipo de fuente de emisión.
+              p.mb-0 Cabe resaltar que los factores de emisión pueden variar por país, año, alcance y tipo de fuente de emisión.
 
 
 </template>

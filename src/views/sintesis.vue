@@ -3,12 +3,6 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-4
-      .titulo-sexto.color-acento-contenido
-        h5 Medición de huella de carbono en organizaciones
-        p Síntesis: Cálculo de GEI y estrategias de gestión
-
-
     p.mb-3 El desarrollo de este componente de aprendizaje busca fortalecer en los aprendices del curso complementario sobre “Medición de huella de carbono en organizaciones”, sus habilidades y conocimientos para realizar cálculos de GEI y desde allí establecer estrategias para su gestión y mitigación.
     p.mb-5 Una breve revisión de los temas vistos, se encuentran en el siguiente esquema:
 

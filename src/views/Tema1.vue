@@ -32,23 +32,23 @@
     .row.mb-1
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
         .row(titulo="Enfoque de participación accionaria")
-          .col-md-8.mb-4.mb-md-0
-            p La organización bajo este enfoque cuantifica las emisiones de GEI conforme a la proporción que posee la estructura accionaria. Este enfoque es netamente de interés económico ya que representa los derechos que una organización tiene sobre los riesgos y beneficios derivados de sus operaciones y actividades, estos derechos son directamente proporcionales a su porcentaje de participación accionaria.
+          .col-md-7.mb-5.mb-md-0.p-4
+            p.mb-4 La organización bajo este enfoque cuantifica las emisiones de GEI conforme a la proporción que posee la estructura accionaria. Este enfoque es netamente de interés económico ya que representa los derechos que una organización tiene sobre los riesgos y beneficios derivados de sus operaciones y actividades, estos derechos son directamente proporcionales a su porcentaje de participación accionaria.
             span Si la organización decide cuantificar sus emisiones conforme a lo establecido en este enfoque, se deberá apoyar de las áreas legal y contable, con el fin de conocer la participación accionaria asociada a las operaciones compartidas y que serán incluidas en este ejercicio.
         
-          .col-md-4
+          .col-md-5
             figure
-              img(src='@/assets/curso/tema1/img2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img2.png', alt='Grupo de personas' style= "height: 418px")
 
         .row(titulo="Enfoque de control")
-          .col-md-8.mb-4.mb-md-0
-            p La organización bajo este enfoque cuantifica el 100% de las emisiones de GEI asociadas a las operaciones, áreas y actividades sobre las cuales tiene control directo,  no puede incluir en dicha cuantificación otras actividades relacionadas con otras organizaciones propias, pero de las cuales no  tiene control directo, este control puede ser definido en términos financieros y operativos.
-            p <b>Control financiero:</b> este enfoque se da cuando una organización puede dirigir y establecer las políticas financieras y operativas con aras de obtener beneficios económicos de las actividades u operaciones desarrolladas por esta. Si dado caso la organización tiene control financiero sobre otra organización se deberá aplicar el enfoque de participación accionaria.
+          .col-md-7.mb-5.mb-md-0.p-4
+            p.mb-4 La organización bajo este enfoque cuantifica el 100% de las emisiones de GEI asociadas a las operaciones, áreas y actividades sobre las cuales tiene control directo,  no puede incluir en dicha cuantificación otras actividades relacionadas con otras organizaciones propias, pero de las cuales no  tiene control directo, este control puede ser definido en términos financieros y operativos.
+            p.mb-4 <b>Control financiero:</b> este enfoque se da cuando una organización puede dirigir y establecer las políticas financieras y operativas con aras de obtener beneficios económicos de las actividades u operaciones desarrolladas por esta. Si dado caso la organización tiene control financiero sobre otra organización se deberá aplicar el enfoque de participación accionaria.
             p <b>Control operativo:</b> en este enfoque se tienen en cuenta los GEI emitidos por las fuentes de emisión sobre las cuales tiene control operativo directo la organización. Bajo este enfoque la organización debe contabilizar el 100% de las emisiones como propias.
 
-          .col-md-4
+          .col-md-5
             figure
-              img(src='@/assets/curso/tema1/img3.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema1/img3.png', alt='Mujer escribiendo su rutina de trabajo' style= "height: 418px")
 
     p.mb-2 Es importante tener en cuenta que cuando la organización es la única dueña de las operaciones, el límite organizacional es el mismo indistintamente el enfoque aplicado y para aquellas organizaciones que cuenten con operaciones en conjunto con otra u otras organizaciones, el límite organizacional puede ser distinto según el enfoque aplicado. Asimismo, en cualquier tipo de situación organizacional, el tipo de enfoque aplicado podrá generar cambio en la categorización de las emisiones de GEI cuando se determinen los límites operativos.    
     separador

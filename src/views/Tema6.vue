@@ -17,10 +17,16 @@
       .col-md-6 
         figure
           img(src='@/assets/curso/tema6/img1.png', alt='Texto que describa la imagen')
-    .row 
-      figure.mb-5
+
+    .row
+      figure
         .video
           iframe(width="942" height="530" src="https://www.youtube.com/embed/3Hcl1m7Amv4" title="Contenidos de reporte de cuantificación de GEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
+    .row
+      .col-md-1.col-2
+        figure.mod
+          img(src='@/assets/curso/introduccion/fond.png', alt='Hojas')
 
 </template>
 

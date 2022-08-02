@@ -13,7 +13,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-6
-        figure
+        figure.mb-4
           img(src='@/assets/curso/tema2/img1.png', alt='Texto que describa la imagen')
       .col-md-6
         p Por este motivo, para que las organizaciones puedan comparar cómo varían sus emisiones de GEI en el tiempo de forma significativa y consistente, deben fijar una base de comparación que permita contrastar el desempeño de un año con respecto al año inmediatamente anterior, llamado año base, sobre este año se centrará el seguimiento al desempeño en términos de emisiones, es muy importante justificar la selección de dicho año.
@@ -69,7 +69,7 @@
                 .col-md-12
                   ol.lista-ol--cuadro
                     li 
-                      .lista-ol--cuadro__vineta
+                      .lista-ol--cuadro__vineta1
                         span 02.
                 .col-md-12
                   p Cambios en la metodología de cuantificación de las emisiones de GEI por ajustes a los factores de emisión o información de las emisiones.
@@ -79,14 +79,15 @@
                 .col-md-12
                   ol.lista-ol--cuadro
                     li 
-                      .lista-ol--cuadro__vineta
+                      .lista-ol--cuadro__vineta2
                         span 03.
                 .col-md-12
                   p Errores significativos en la cuantificación de las emisiones de GEI, los cuales pueden traer consecuencias significativas para la organización.
 
-    .row 
-      .cajon.color-acento-contenido.p-4.mb-4(style='background-color: #FFE3DB')
-        p.mb-0 El ajuste de las emisiones del año base deben realizarse de manera retroactiva con el fin de reflejar cambios significativos en el desempeño de la organización en términos de emisiones de GEI.
+    .row.justify-content-center.align-items-center
+      .col-md-10
+        .cajon.color-acento-contenido.p-4.mb-4(style='background-color: #FFE3DB')
+          p.mb-0 El ajuste de las emisiones del año base deben realizarse de manera retroactiva con el fin de reflejar cambios significativos en el desempeño de la organización en términos de emisiones de GEI.
 
 </template>
 

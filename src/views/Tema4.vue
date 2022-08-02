@@ -13,42 +13,42 @@
       p Luego de determinar los límites de medición de GEI, se puede iniciar con el ejercicio de cuantificación de las emisiones de GEI. Para facilitar el ejercicio de cuantificación de las emisiones de GEI, las organizaciones deben identificar las fuentes de emisión que están asociadas a las actividades y operaciones que fueron consideradas a analizar. 
       span Para conocer las principales fuentes de emisión de GEI, revise con atención el recurso educativo propuesto: 
 
-    .row.mb-4.justify-content-center.align-items-center
+    .row.mb-2
         .col-md-12
           .tarjeta.fondo-slyder-1.mb-5(data-aos="fade-up")
             SlyderA
-              .row.p-5
+              .row.p-2
                 .col-md-4
                   h5 Fuentes fijas
                   p Equipos estacionarios o fijos, como calderas, hornos, entre otros, que realizan procesos de combustión para generar energía en forma de calor o electricidad.
                 .col-md-8
                   figure
-                    img(src='@/assets/curso/tema4/img1.png', alt='Texto que describa la imagen')
+                    img.tam(src='@/assets/curso/tema4/img1.png', alt='Industria')
                 
-              .row.p-5
+              .row.p-2
                 .col-md-4
                   h5 Fuentes móviles
                   p Vehículos automotores, ferrocarriles, aeronaves, embarcaciones u otro equipo móvil que desarrolle procesos de combustión a partir de fuentes fósiles.
                 .col-md-8
-                  figure
-                    img(src='@/assets/curso/tema4/img2.png', alt='Texto que describa la imagen')
+                  figure.p-2
+                    img.tam(src='@/assets/curso/tema4/img2.png', alt='Varios autos')
                 
-              .row.p-5
+              .row.p-2
                 .col-md-4
                   h5 Fuentes de proceso
                   p Emisiones generadas por procesos químicos o físicos como las emisiones de PFC en la fundición de aluminio, entre otras. 
 
                 .col-md-8
-                  figure
-                    img(src='@/assets/curso/tema4/img3.png', alt='Texto que describa la imagen')
+                  figure.p-2
+                    img.tam(src='@/assets/curso/tema4/img3.png', alt='Trabajadores')
                 
-              .row.p-5
+              .row.p-2
                 .col-md-4
                   h5 Fuentes fugitivas
                   p Liberaciones intencionales o no intencionales generadas por plantas de tratamiento de agua residual, torres de enfriamiento, plantas de procesamiento de gas, fugas de gas en las uniones, sellos, empaques o juntas de equipos. 
                 .col-md-8
-                  figure
-                    img(src='@/assets/curso/tema4/img4.png', alt='Texto que describa la imagen')
+                  figure.p-2
+                    img.tam(src='@/assets/curso/tema4/img4.png', alt='Industria')
 
     .row.mb-4 
       p Es innegable que todas las empresas realizan procesos y actividades encaminadas a la producción de un producto o la prestación de un servicio y la ejecución de estos generan emisiones directas o indirectas de una o varias fuentes de emisión.
@@ -60,7 +60,7 @@
           .row
             .col-md-2
               figure
-                img(src='@/assets/curso/tema4/vec4.png', alt='Texto que describa la imagen' style= "width: 105px")
+                img.der.m-2(src='@/assets/curso/tema4/vec4.png', alt='Texto que describa la imagen' style= "width: 105px")
             .col-md-10.mb-0.mb-md-0
               h4 Emisiones directas de GEI: 
               p Las emisiones que están definidas en este alcance son las fuentes sobre las cuales la organización tiene el control, como las emisiones generadas por equipos de combustión y parque automotor perteneciente o con control de la organización. Las emisiones de GEI generadas por la combustión de biomasa, los GEI no contemplados por el Protocolo de Kyoto como los CFC, NOX, entre otros, no deben ser incluidos en la cuantificación de este alcance.
@@ -71,7 +71,7 @@
           .row
             .col-md-2
               figure
-                img(src='@/assets/curso/tema4/vec5.png', alt='Texto que describa la imagen' style= "width: 105px")
+                img.der.m-2(src='@/assets/curso/tema4/vec5.png', alt='Texto que describa la imagen' style= "width: 105px")
             .col-md-10.mb-0.mb-md-0
               h4 Emisiones indirectas de GEI:
               p.mb-2 Asociadas a la electricidad: las emisiones que están definidas en este alcance son exclusivamente las emisiones asociadas a la generación eléctrica que es comprada y consumida por la organización para el desarrollo de sus actividades y procesos.
@@ -82,7 +82,7 @@
           .row
             .col-md-2
               figure
-                img(src='@/assets/curso/tema4/vec6.png', alt='Texto que describa la imagen' style= "width: 105px")
+                img.der.m-2(src='@/assets/curso/tema4/vec6.png', alt='Texto que describa la imagen' style= "width: 105px")
             .col-md-10.mb-0.mb-md-0
               h4 Otras emisiones indirectas: 
               p Las emisiones que están definidas en este alcance son aquellas emisiones indirectas que no son asociadas a la generación eléctrica y son consecuencia de las actividades de la organización, pero sobre las cuales no tiene el control, como la obtención de materias primas, el transporte de materias primas y combustibles necesarios para la operación de la organización, entre otras.
@@ -128,7 +128,7 @@
             p.p-2 Si la organización es generadora de energía eléctrica, productora de cemento, aluminio o acero, manufacturera o de tipo industrial y realiza la venta de estos servicios y productos, la organización debe contabilizar las emisiones asociadas a este proceso físico o químico en el alcance 1, siempre y cuando las organizaciones tengan el control sobre estos procesos, lo que quiere decir que las emisiones asociadas a la venta o transferencia de productos y servicios deben ser cuantificadas y reportadas en el alcance 1.<br><br/>Por otro lado, si las organizaciones sólo realizan actividades administrativas en algunas ocasiones pueden que no tengan fuentes de emisión directa de GEI, pero si estas cuentan u operan vehículos propios, sistemas de refrigeración o equipos de combustión estas emisiones deben ser cuantificadas y reportadas en alcance 1.
           .col-12.col-md-4
             figure.arri1
-              img(src="@/assets/curso/tema4/img5.png" style= "height: 416px")
+              img(src="@/assets/curso/tema4/img5.png")
     separador
 
     #t_4_2.titulo-segundo.titulo-segundo.color-acento-contenido
@@ -136,7 +136,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-6
-        figure
+        figure.mb-4
           img(src='@/assets/curso/tema4/img6.png', alt='Texto que describa la imagen')
       .col-md-6
         p Las organizaciones que cuantifican y reportan las emisiones de GEI derivadas del uso de la energía eléctrica comprada para poder desarrollar sus procesos y actividades, deben realizar el análisis de estas en el alcance 2. Para la mayoría de las organizaciones las emisiones cuantificadas en este alcance son las fuentes más significativas y con mayor porcentaje de participación en las emisiones totales generadas, por ello sobre este alcance se centra la implementación de medidas o estrategias que propendan por su reducción.
@@ -145,12 +145,12 @@
     .row.justify-content-center.mb-4
       .col-md-8
         .cajon.color-primario.p-4.mb-4(style='background-color: #E5FFE9')
-          .row.align-items-center
-            .col-md-2
+          .row.justify-content-center.align-items-center
+            .col-md-2.col-8
               figure
                 img(src='@/assets/curso/tema4/vec7.png' alt='AvatarTop')
             .col-md-10
-              p Es importante resaltar que todas las organizaciones generan emisiones directas asociadas a la compra de electricidad ya que este servicio es indispensable para el desarrollo de sus actividades y procesos indistintamente de su COR de negocio.
+              p.mb-0 Es importante resaltar que todas las organizaciones generan emisiones directas asociadas a la compra de electricidad ya que este servicio es indispensable para el desarrollo de sus actividades y procesos indistintamente de su COR de negocio.
     separador
 
     #t_4_3.titulo-segundo.titulo-segundo.color-acento-contenido
@@ -175,60 +175,60 @@
 
     .bg_grad-03.mb-4
       .row.align-items-center.justify-content-end.mb-4
-        .col-md-9.mb-4
-          .tarjeta.tarjeta--verde.p-4
+        .col-md-9.mb-4.col-8
+          .tarjeta.tarjeta--naranja.p-4
             SlyderA
               .row.p-2
                 .col-md-12.mb-4.mb-md-0
                   h5 Fuentes corriente arriba
                   ol.lista-ol
-                      li 
-                        span.text-bold 1.
+                      li.mb-0 
+                        .text-bold 1.
                         |  Artículos y servicios comprados.
-                      li 
-                        span.text-bold 2.
+                      li.mb-0 
+                        .text-bold 2.
                         | Bienes de capital.
-                      li 
-                        span.text-bold 3.
+                      li.mb-0 
+                        .text-bold 3.
                         | Actividades relacionadas con el combustible y la energía (no incluídas en alcance 1 y 2).
-                      li 
-                        span.text-bold 4.
+                      li.mb-0 
+                        .text-bold 4.
                         | Transporte y distribución corriente arriba.
 
               .row.p-2
                 .col-md-12.mb-4.mb-md-0
                   h5 Fuentes corriente arriba
                   ol.lista-ol
-                      li 
+                      li.mb-0 
                         span.text-bold 5.
                         | Residuos generados en las operaciones.
-                      li 
+                      li.mb-0 
                         span.text-bold 6.
                         | Viajes de negocios.
-                      li 
+                      li.mb-0 
                         span.text-bold 7.
                         | Desplazamiento al trabajo de los empleados.
-                      li 
+                      li.mb-0 
                         span.text-bold 8.
                         | Activos arrendados corriente arriba.
   
-        .col-md-9.mb-4
+        .col-md-9.col-8.mb-4
           .tarjeta.tarjeta--verde.p-4
             SlyderA
               .row.p-2
                 .col-md-12.mb-4.mb-md-0
                   h5 Fuentes corriente abajo
                   ol.lista-ol
-                      li 
+                      li.mb-0 
                         span.text-bold 9.
                         | Transporte y distribución corriente abajo.
-                      li 
+                      li.mb-0 
                         span.text-bold 10.
                         | Procesamiento de los productos vendidos.
-                      li 
+                      li.mb-0 
                         span.text-bold 11.
                         | Uso de los productos vendidos.
-                      li 
+                      li.mb-0 
                         span.text-bold 12.
                         | Transporte de final de vida útil de los productos vendidos.
 
@@ -236,23 +236,33 @@
                 .col-md-12.mb-4.mb-md-0
                   h5 Fuentes corriente abajo
                   ol.lista-ol
-                      li 
+                      li.mb-0 
                         span.text-bold 13.
                         | Activos arrendados corriente abajo.
-                      li 
+                      li.mb-0 
                         span.text-bold 14.
                         | Franquicias.
-                      li 
+                      li.mb-0 
                         span.text-bold 15.
                         | Inversiones.
                      
-    .row.mb-4
+    .row.mb-5
       p Si la organización tiene control o es dueña de alguna de las fuentes de emisión para el análisis del alcance 3 esta debe tener muy claros sus límites organizacionales, ya que, si es así, estas emisiones no pueden ser cuantificadas en este alcance sino en el alcance 1 o 2 según sea su fuente y se deben indicar las emisiones de acuerdo a su participación accionaria.
       span Para conocer los pasos necesarios para cuantificar y reportar las emisiones en este alcance, revise el siguiente recurso educativo:
 
     .row
-      LineaTiempoA.color-primario.mb-5(:datos="datosLineaTiempoA")
-    separador 
+      LineaTiempoE.color-primario
+        .row(titulo="Describir la cadena de valor")
+          .col-lg-12.mb-0.mb-lg-0
+            p La organización debe informar y describir su cadena de valor y las fuentes de emisión de GEI asociadas, para realizar esta acción se puede usar una lista de verificación.
+
+        .row(titulo="Determinar las fuentes de emisión relevantes")
+          .col-lg-12.mb-0.mb-lg-0
+            p la organización debe analizar cuáles fuentes de emisión corriente arriba y abajo son relevantes,  para esto deben tener en cuenta que estas: <br> ●	Representan un alto porcentaje respecto a las emisiones alcance 1 y 2. <br> ●  Contribuyen a la exposición de riesgo de GEI de la organización. <br> ●  Son críticas para las partes interesadas de la organización. <br> ●  Se pueden generar reducciones potenciales en estas fuentes aplicando acciones coercitivas por parte de la organización.
+    
+        .row(titulo="Identificar socios a lo largo de la cadena de valor")
+          .col-lg-12.mb-0.mb-lg-0
+            p La organización debe identificar qué proveedor o cliente o socio aporta un porcentaje significativo de emisiones de GEI a lo largo de la cadena de valor.
 
 </template>
 
