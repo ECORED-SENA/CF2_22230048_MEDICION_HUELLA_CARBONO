@@ -8,15 +8,15 @@
         span.text-white 5
       h1 Herramientas de cálculo de emisiones de GEI
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-down")
       figure
         img(src='@/assets/curso/tema5/img1.jpg' alt='AvatarTop')
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       p.mb-2 Luego de identificar las fuentes de emisión respectivas para cada alcance se debe seleccionar el método de cálculo para cuantificar las emisiones, comúnmente se realiza a partir de la recolección de información relacionada con los procesos y actividades establecidas como marco de cuantificación de las emisiones de GEI y la selección de factores de emisión.
       p <b>Para poder relacionar la información y los factores de emisión se debe aplicar la siguiente ecuación:</b>
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-8
         .cajon.color-primario.p-4.mb-4(style='background-color: #E5FFE9')
           .row.justify-content-center.align-items-center
@@ -29,7 +29,7 @@
                 .cajon-b.color-fondo.p-2
                   <b>Emisiones = información proceso o actividad  X Factor de emisión</b>
 
-    .row.mb-4.justify-content-center.align-items-center
+    .row.mb-4.justify-content-center.align-items-center(data-aos="fade-down")
       .col-md-10
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -40,13 +40,13 @@
             span A continuación, se hace referencia a cada una de las herramientas:
     separador
 
-    #t_5_1.titulo-segundo.titulo-segundo.color-acento-contenido
+    #t_5_1.titulo-segundo.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.1	Herramientas intersectoriales
    
-    .row.mb-4 
+    .row.mb-4(data-aos="fade-right")
       p Estas herramientas pueden ser empleadas por diversos sectores de la economía, incluyen emisiones asociadas a la combustión móvil y fija, el uso de gases refrigerantes y sistemas HVAC (aire acondicionado y calefacción) En el siguiente recurso educativo se detallan las herramientas de cálculo intersectoriales.
 
-    .bg_grad-04.mb-5
+    .bg_grad-04.mb-5(data-aos="fade-right")
       .row.align-items-center.justify-content-end.mb-5
         .col-md-7.mb-5
           .tarjeta.tarjeta--blanca.mb-5.p-3
@@ -77,13 +77,13 @@
       br
       separador
 
-    #t_5_2.titulo-segundo.titulo-segundo.color-acento-contenido
+    #t_5_2.titulo-segundo.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.2	Herramientas específicas por sector
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       p Son herramientas estructuradas para ser usadas por sectores determinados como hierro, cemento, aluminio, petróleo y gas, papel y empresas con actividades de índole administrativo. En el siguiente recurso se detallan las herramientas de cálculo por sector: 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-md-12.center
         ImagenInfografica.color-primario
           template(v-slot:imagen)
@@ -130,16 +130,16 @@
             p <b>10. Producción de paneles semiconductores</b>  
             span Calcula las emisiones de PFC de la producción de paneles semiconductores.
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       p.mb-2 Las organizaciones deben emplear más de una herramienta (sectorial e intersectorial) para desarrollar el cálculo de sus emisiones de GEI.
       p <b>Para cada una de estas herramientas se deben considerar las siguientes secciones:</b>
 
     .row.justify-content-center.align-items-center
       .col-md-10.col-12
-        .titulo-sexto.color-acento-contenido.mb-0
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="fade-right")
           h5 Figura 4.
           span Secciones por considerar para realizar la cuantificación de emisiones de GEI.
-        .row
+        .row(data-aos="fade-down")
           figure
             img(src='@/assets/curso/tema5/vec2.svg' alt='AvatarTop')
 

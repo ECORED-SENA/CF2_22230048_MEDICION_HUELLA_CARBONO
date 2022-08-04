@@ -9,10 +9,10 @@
           i.fas.fa-info
       h1 Introducción
       
-    .row 
+    .row(data-aos="flip-down")
       p.mb-4 Le damos la bienvenida al componente formativo “Cálculo de GEI y estrategias de gestión”, para comenzar el recorrido por el mismo, visite el recurso educativo que se propone a continuación: 
 
-    .row
+    .row(data-aos="flip-down")
       figure
         .video
           iframe(width="942" height="530" src="https://www.youtube.com/embed/2VM7Y6-7Gg8" title="Cálculo de GEI y estrategias de gestión introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

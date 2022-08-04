@@ -9,8 +9,8 @@
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
     top: 60%
-    right: -5%
-    width: 191px
+    right: 0%
+    width: 171px
 
 
 @keyframes float1
@@ -19,6 +19,9 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__img
+  padding-top: 1.2rem !important
 
   //Introducción
 
@@ -39,7 +42,7 @@
 
 //tema1
 
-.tarjeta--azul 
+.tarjeta-color1
   background-color: #FFFDD6
 
 //tema2
@@ -139,7 +142,7 @@
   cursor: pointer
 
 .slyder-a__bullets__item 
-    background-color: #C2E6D7
+  background-color: #ffffff
 
 .slyder-a__btn--atrs 
   width: 35px
@@ -177,6 +180,23 @@
   width: 15px
   height: 15px
   margin: 6px
+
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EA653C
+  border: 1px solid #EA653C
+  transform: rotate(180deg);
+  right: 15px;
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EA653C
+  border: 1px solid #EA653C
+  transform: rotate(0deg);
+  right: 15px;
+
+.slyder-a__tipo-b .slyder-a__bullets__item--active
+  background-color: #EA653C
+  border-color: #EA653C
+  opacity: 1
 
 .bg_grad-02
   position: relative
@@ -256,9 +276,17 @@
 
 .tarjeta--verde
   background-color: #E5FFE9
+  margin-left: -120%
+  @media screen and (max-width: 800px)
+    background-color: #E5FFE9
+    margin-left: 0%
 
 .tarjeta--naranja
   background-color: #FFD8CC
+  margin-left: -120%
+  @media screen and (max-width: 800px)
+    background-color: #FFD8CC
+    margin-left: 0%
 
 .color-fondo 
   background-color: #ffffff
@@ -302,6 +330,16 @@
       height: 100%
       background-image: url("../assets/curso/tema4/fond.svg")
       background-repeat: no-repeat
+    @media screen and (max-width: 800px)
+      content: ''
+      position: absolute
+      margin: 0rem
+      top: 0%
+      left: 0px
+      width: calc( 100% + 0rem)
+      height: 100%
+      background-image: url("../assets/curso/tema4/fond.svg")
+      background-repeat: no-repeat
 
 .linea-tiempo-a.color-primario .linea-tiempo-a__icon__container 
   background-color: #F6F6F6
@@ -326,6 +364,14 @@
     background-repeat: no-repeat
     @media screen and (max-width: 1400px)
       opacity: 0%
+
+.z-image
+  z-index: 0
+
+.m
+  z-index: 1
+
+
 
 //tema5
 
@@ -411,4 +457,6 @@
   margin-right: 8px
 
 .der
-  float: right
+  padding-left: 40%
+  @media screen and (max-width: 999px)
+    padding-left: 30%

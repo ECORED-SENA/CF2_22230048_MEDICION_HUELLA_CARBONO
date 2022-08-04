@@ -9,16 +9,16 @@
       h1 Reporte de emisiones de GEI
     
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-6 
+      .col-md-6(data-aos="fade-right")
         p.mb-4 Los resultados de la cuantificación de las emisiones de GEI se deben presentar en un informe para facilitar su verificación, reconocer la participación en un programa de GEI o como forma de comunicación de las emisiones a sus partes interesadas internas y externas.
         span Los reportes de emisiones de GEI deben ser informes completos, relevantes, transparentes, concisos y precisos, donde se refleje toda la información referente a los alcances contabilizados. Para conocer la información que se debe considerar a la hora de realizar un reporte, revise el siguiente recurso educativo:  
 
 
-      .col-md-6 
+      .col-md-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/img1.png', alt='Texto que describa la imagen')
 
-    .row
+    .row(data-aos="fade-down")
       figure
         .video
           iframe(width="942" height="530" src="https://www.youtube.com/embed/3Hcl1m7Amv4" title="Contenidos de reporte de cuantificación de GEI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
